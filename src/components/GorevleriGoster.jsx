@@ -36,7 +36,7 @@ setGorevler(gorevler.filter((i)=>i.id!==id))
           );
         })
       ) : (
-        <h1>NO TASK</h1>
+        <h1>-NO TASK-</h1>
       )}
     </div>
   );
