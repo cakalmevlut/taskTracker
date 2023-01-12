@@ -25,7 +25,7 @@ setGorevler(gorevler.filter((i)=>i.id!==id))
               }
             >
               <h3>
-                {text}
+                {text}{" "}
                 <FaTimesCircle
                   style={{ color: "red" }}
                   onClick={() => deleteGorev(id)}
